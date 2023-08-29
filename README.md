@@ -9,6 +9,8 @@
 - You can run this project with command
 # Run
 - You can run this project with command: ng serve --o.
+- After the program has finished complie, the browser auto open the path: [localhost:](http://localhost:4200/).
+- You can easily debug or test with every you save the browser auto refresh
 # Run test
 - You can test this project with command ng e2e
 
