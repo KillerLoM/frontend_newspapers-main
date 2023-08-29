@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+:root {
+  --primary-color: #605DC8;
+  --secondary-color: #8B89E6;
+  --accent-color: #e8e7fa;
+  --shadow-color: #E8E8E8;
+}
+
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+img{
+  max-width: 100%;
+  display: flex;
+  margin-left: 5%;
+
+  height: 100vh;
+}
+.PhotoCMS_Caption{
+  font-style: italic;
+  font-weight: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+header{
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+}
+.content{
+  top: 37px
+}

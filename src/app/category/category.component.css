@@ -1,0 +1,44 @@
+.category-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-list li {
+    margin-right: 1em;
+  }
+  a.active {
+    /* background-color: black; */
+    color: red;
+  }
+  a.navbar-brand {
+    font-size: 13px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .pc {
+      display: block!important;
+      /* Áp dụng kiểu hiển thị trên máy tính */
+    }
+    .mobile{
+      display:none !important;
+    }
+  }
+  @media screen and (max-width: 740px){
+    .mobile{
+      display:inline-block !important; 
+    }
+    .bg-body-tertiary {
+      position: fixed !important;
+      top: 0;
+      left: 0;
+      z-index: 2!important; 
+    }
+    .pc{
+      display:none !important;
+    }
+
+}
+
+  
