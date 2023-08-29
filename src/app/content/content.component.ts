@@ -67,6 +67,7 @@ export class ContentComponent {
   }
   enableUser(){
     this.userService.setUserActive(true);
+    this.scrollService.setScrollingActive(true);
   }
   passCategory(category: any){
     
