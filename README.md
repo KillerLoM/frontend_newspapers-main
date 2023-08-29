@@ -5,6 +5,7 @@
 # KITKAK CRAWL DATA FROM TUOITRE NEWS
 - This project was generated with Angular v16.2.0
 # Build
+- Before you run, you need install some neccessary files so you need to run the command: npm install
 - You can run this project with command
 # Run
 - You can run this project with command: ng serve --o.
