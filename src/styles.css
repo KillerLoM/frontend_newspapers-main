@@ -26,9 +26,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 img{
   max-width: 100%;
   display: flex;
-  margin-left: 5%;
+  margin-left: 10%;
 
-  height: 100vh;
 }
 .PhotoCMS_Caption{
   font-style: italic;
@@ -44,6 +43,11 @@ header{
   bottom: 0;
   height: 60px;
 }
-.content{
-  top: 37px
+@media screen and (max-width: 812px) {
+  img{
+    max-width: 100%;
+    display: flex;
+    margin-left: 0%!important;
+  
+  }
 }
